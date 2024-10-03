@@ -1,27 +1,27 @@
-h1{
-    text-align: center;
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+.btn {
+}
+.show-btn {
+}
+.modal {
+}
+.modal-header {
+    display: flex;
+    justify-items: center;
+    background:#567;
+    margin-bottom: 120px;
+}
+.close-btn {
+    border: none;
+    background: none;
+    font-size: 30px;
 }
 
-li{
-    margin-right: auto;
-    margin-left: auto;
-    background: rgba(116, 0, 134, 0.644);
-    color: white;
-    margin-bottom: 10px;
-    padding: 10px;
-    cursor: pointer;
-    max-width: 300px;
-}
-
-button{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(61, 70, 240);
-    cursor: pointer;
-    border: 0;
-}
-
-button:hover{
-    opacity: 0.9;
+.hidden{
+    display: none;
 }
