@@ -5,10 +5,6 @@ const movies =  [
     {name:'avengers', year:2012, rating:6},
 ]
 
-const  sortedMovies = movies.sort((a, b)=>{
-    return a.rating - b.rating
-})
 
-console.log(sortedMovies);
 
 
