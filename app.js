@@ -4,19 +4,11 @@ const movies =  [
     {name:'forsaj 9 3D', year:2020, rating:4},
     {name:'avengers', year:2012, rating:6},
 ]
-// const newmowies = []
-// movies.forEach((e)=>{
-//     if(e.yeyar > 2010){
-//         newmowies.push(e)
-//     }
-    
-// })
 
-// console.log(newmowies);
-
-const filtermovies = movies.filter((movie)=>{
-    return movie.name.includes("3D")
+const  sortedMovies = movies.sort((a, b)=>{
+    return a.rating - b.rating
 })
 
-console.log(filtermovies);
+console.log(sortedMovies);
+
 
