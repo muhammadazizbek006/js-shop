@@ -15,7 +15,7 @@ const movies =  [
 // console.log(newmowies);
 
 const filtermovies = movies.filter((movie)=>{
-    return movie.year > 2010
+    return movie.name.includes("3D")
 })
 
 console.log(filtermovies);
