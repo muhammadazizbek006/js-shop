@@ -4,3 +4,12 @@ const movies =  [
     {name:'forsaj 9 3D', yeyar:2020, rating:4},
     {name:'avengers', yeyar:2012, rating:6},
 ]
+const newmowies = []
+movies.forEach((e)=>{
+    if(e.yeyar > 2010){
+        newmowies.push(e)
+    }
+    
+})
+
+console.log(newmowies);
